@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Green Transit</title>
+    <link rel="stylesheet" href="testStyle.css">
+
+</head>
+<body>
+
+<header>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Green Transit</a>
+        <a href="#aboutLink">About</a>
+        <a href="causes.html">Causes & Consequences</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <div class="iconContainer">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </a>
+    </div>
+</header>
+
+
+<section class="banner">
+    <!-- <img src="images/indexBanner.png" alt=BannerImage width="100%"> -->
+    <div class="container">
+
+        <div class="titleContainer">
+
+            <div class="greenTitle">Green</div>
+            <div class="transitTitle">Transit</div>
+        </div>
+
+    </div>
+
+    <div class="sloganContainer">
+        <div class="slogan">
+            <p>Make A Difference to Vehicle Emissions</p>
+        </div>
+    </div>
+</section>
+
+<section class="aboutContainer" id="aboutLink">
+
+    <div class="about" id="about">
+        <div class="content">
+            <h2>Who Are We?</h2>
+            <div class="aboutLeftCol">
+                <p>
+                    Green Transit is an organisation striving to take action against climate change and greenhouse
+                    gases specifically with vehicle emissions. We specialise in informing and offering solutions to
+                    the current global problem at hand with climate change. Although climate change seems to be such
+                    a big problem, a small action can start a big difference. Here at Green Transit, cutting down on
+                    vehicle emissions is our primary concern as it contributes to 28% of greenhouse gases. Everyday
+                    passenger cars contribute the most to this.
+                </p>
+                <p>Our main course of action is to change the way the everyday household family travels to and from
+                    work or school, whether it be via train or bus.
+                </p>
+
+            </div>
+
+            <div class="aboutRightCol">
+                <p>
+                    Every little bit makes a difference in saving the place we call home and making it a healthier
+                    place for our future generations.
+                </p>
+
+                <div>
+                    <img src="images/school.png" alt=inputImage style="width:100%;">
+                </div>
+            </div>
+            <div class="clearDiv">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="motionGraphic">
+    <div class="videoContainer" id="video">
+        <h1>Motion Graphic</h1>
+
+        <h2>Green House Gases</h2>
+
+        <div class="videoText">
+            <p>
+                This is our advertising campaign which showcases how making a little change in the way we commute
+                will make a difference and a better future.
+            </p>
+        </div>
+
+        <video src="videos/placeholderTwo.mov" poster="images/crossroad.png" width="960">
+        </video>
+    </div>
+    <div class="clearDiv">
+    </div>
+</section>
+
+
+<section class="portalContainer">
+    <div class="portal" id="portal">
+        <h1>Learn More:</h1>
+
+        <div class="content">
+
+            <div class="portalLeftCol">
+                <a href="causes.html">
+
+                    <div class="portalCauses">
+                        <h1>Causes and Consequences</h1>
+                    </div>
+                    <!-- <a href="causesconsequences.html"> -->
+                    <img src="images/polluted.png" alt="cityscape" width="460" height="400" class="image">
+                </a>
+            </div>
+
+            <div class="portalRightCol">
+                <a href="solutions.html">
+                    <div class="portalSolutions">
+                        <h1>Solutions</h1>
+                    </div>
+
+                    <!-- <a href="solutions.html"> -->
+                    <img src="images/houses.png" alt="train" width="460" height="400">
+                </a>
+            </div>
+        </div>
+
+        <div class="clearDiv">
+        </div>
+        <div class="clearDiv">
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>Made By Josh and Troix. GPI. Green Transit - Saving the Enviroment bit by bit -</p>
+</footer>
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+</body>
+</html>
